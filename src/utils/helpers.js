@@ -6,6 +6,7 @@ export function formatCurrency(value) {
 }
 
 export function formatDate(dateStr) {
+  console.log('okay');
   return new Intl.DateTimeFormat("en", {
     day: "numeric",
     month: "short",
